@@ -1,0 +1,232 @@
+input[type=text].am-input,
+input[type=email].am-input,
+input[type=tel].am-input, 
+select.am-input, 
+textarea.am-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: auto;
+}
+
+select.am-input-date {
+	width: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: auto;	
+}
+
+label.am-label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit].am-input {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 100%;
+    margin-top: 6px;
+}
+
+input[type=submit].am-input:hover {
+    background-color: #45a049;
+}
+
+h1.athlete-manager-header {
+	display: inline-block;
+}
+
+.am-row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="am-col-"] {
+    float: left;
+    padding: 5px;
+    line-height: auto;
+}
+.am-col-1 {width: 8.33%;}
+.am-col-2 {width: 16.66%;}
+.am-col-3 {width: 25%;}
+.am-col-4 {width: 33.33%;}
+.am-col-5 {width: 41.66%;}
+.am-col-6 {width: 50%;}
+.am-col-7 {width: 58.33%;}
+.am-col-8 {width: 66.66%;}
+.am-col-9 {width: 75%;}
+.am-col-10 {width: 83.33%;}
+.am-col-11 {width: 91.66%;}
+.am-col-12 {width: 100%;}
+
+.dashicons:hover {
+	color: #d54e21;
+	cursor: pointer;
+}
+
+#athlete-manager-datatable [class="textAlign-center"] {
+	text-align: center;
+}
+
+#athlete-manager-add-athlete-button,
+#athlete-manager-add-event-button {
+	margin-left: 10px;
+}
+
+.athlete-code {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* Buttons */
+.athlete-manager-buttons,
+.athlete-manager-buttons.small {
+	background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.athlete-manager-buttons {
+	margin: 6px 5px 0 0;
+	padding: 12px 20px;	
+}
+
+.athlete-manager-buttons.small {
+	margin: 3px 3px 3px 0;
+	padding: 6px 10px;	
+}
+
+.athlete-manager-buttons:hover,
+.athlete-manager-buttons.small:hover {
+	background-color: #45a049;
+}
+
+.athlete-manager-buttons.added {
+	background-color: #5b5b5b;
+	cursor: default;
+}
+
+.athlete-manager-buttons.edit {
+    background-color: #2370ff;
+    
+}
+
+.athlete-manager-buttons.edit:hover {
+    background-color: #0459f7;
+}
+
+.athlete-manager-buttons.cancel,
+.athlete-manager-buttons.delete {
+	background-color: #bf0000;
+}
+
+.athlete-manager-buttons.cancel:hover,
+.athlete-manager-buttons.delete:hover {
+	background-color: #aa0101;
+}
+
+/* The Modal (background) */
+.athlete-manager-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.athlete-manager-modal .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 400px; /* Could be more or less, depending on screen size */
+}
+
+/* Modal Close Button */
+.athlete-manager-modal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.athlete-manager-modal .close:hover,
+.athlete-manager-modal .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.athlete-manager-modal span.ok {
+    float: right;
+}
+
+.athlete-manager-modal .question {
+	font-size: 15px;
+}
+
+#athlete-manager-webcam {
+	border: 1px solid #000;
+	margin-bottom: 10px;
+}
+
+#athlete-manager-webcam-preview {
+	height: 240px;
+	width: 323px;
+	display: inline-block;
+	border: 1px solid #000;
+	margin-left: 10px;
+}
+
+#athlete-manager-profile-picture {
+	display: inline-block;
+	border: 1px solid #000;
+	height: auto;
+	margin-bottom: 10px;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#athlete-manager-profile-picture img {
+	width: 100%;
+}
+
+#athlete-manager-webcam-post-functions {
+	display: none;
+}
+
+.athlete-manager-modal .add-event-participants {
+	width: 80%;
+	height: 500px;
+}
+
+span.ajax-loader-gif {
+    width: 128px;
+    height: 15px;
+    display: inline-block;
+    content: url("../images/ajax-loader.gif");
+    margin-right: 10px;
+    vertical-align: middle;
+}
